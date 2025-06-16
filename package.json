@@ -1,0 +1,22 @@
+{
+  "name": "video-api-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "fastify": "^5.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
